@@ -1,3 +1,7 @@
+## 🚀 About Valor Consultoria
+
+Este é um projeto baseado na landing page Fresh, disponibilizada pelo cssNinja. Fique a vontade para reutilizar este projeto!
+
 # 👋 Fresh
 > Fresh is a free landing page starter built by [cssninjaStudio](https://cssninja.io).
 
