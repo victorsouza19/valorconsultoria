@@ -10,6 +10,16 @@
 *
 */
 
+/* VARIÁVEIS */
+:root {
+--amarelo-padrao: #FAD41B;
+--bege: #FAF8EB;
+--cinza-claro: #939598;
+--cinza-medio: #76777B;
+--cinza-escuro: #54565B;
+
+}
+
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
@@ -279,7 +289,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -296,7 +306,7 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: var(--cinza-medio);
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -440,6 +450,49 @@ h1.navbar-brand {
 .sl-slide-vertical .sl-content-slice:nth-child(2) {
     left: 50%;
     padding: 200px 200px 200px 0px;
+}
+
+
+.template-upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 200px 0 20px 0;
+
+    padding: 10rem;
+}
+
+.first-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-column h2{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;  
+}
+
+.first-column button{
+    margin-top: 4rem;
+    text-decoration: none;
+    background: var(--amarelo-padrao);
+    border-radius: 0.4rem;
+    border: none;
+
+    color: #ffff;
+    font-weight: 800;
+
+    padding: 2rem;
+}
+
+
+
+.second-column{
+    margin-left: 4rem;
 }
 
 /* Content wrapper */
