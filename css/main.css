@@ -12,6 +12,7 @@
 
 /* VARIÁVEIS */
 :root {
+
 --amarelo-padrao: #FAD41B;
 --bege: #FAF8EB;
 --cinza-claro: #939598;
@@ -565,7 +566,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: var(--cinza-escuro);
     color: #fff;
 }
 
@@ -790,7 +791,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: rgba(250, 212, 27, 0.78);
     padding: 70px 0 40px;
 }
 
