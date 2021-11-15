@@ -1390,3 +1390,14 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+@media only screen and (min-width: 481px) {
+    .portfolio-item img{
+        height: 20rem;
+        width: 100%;
+    }    
+    
+    .portfolio-item{
+        margin: 0.5rem;
+    }
+}
