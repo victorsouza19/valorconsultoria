@@ -89,8 +89,8 @@
 }
 
 #nav-arrows > a.sl-next:hover {
-	background-color: #009EE3;
-	border-color: #009EE3;
+	background-color: var(--amarelo-padrao);
+	border-color: var(--amarelo-padrao);
 	color: #fff;
 }
 
