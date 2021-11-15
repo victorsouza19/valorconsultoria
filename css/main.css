@@ -449,6 +449,11 @@ h1.navbar-brand {
 #about, #free-test{
     background-color: var(--cinza-escuro);
     color: #fff;
+    padding: 4rem 2rem;
+}
+
+#free-test h3{
+    text-align: center;
 }
 
 #about h3, 
