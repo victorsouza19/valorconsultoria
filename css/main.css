@@ -1309,6 +1309,12 @@ textarea.form-control {
     }
 }
 
+@media only screen and (max-width: 481px) {
+
+    .service-item{
+        margin-bottom: 4rem;
+    }
+}
 
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
@@ -1342,7 +1348,7 @@ textarea.form-control {
 /* service */
 
     .service-item {
-        margin: 0 auto 50px;
+        margin: 0 auto 100px;
         width: 55%;
     }
 
