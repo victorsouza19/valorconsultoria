@@ -17,7 +17,7 @@
 
 ## 📢 Sobre o projeto
 
-Este projeto foi feito por um grupo de integrantes da Fatec Campinas, através de uma consultoria, onde foi desenvolvido um software para controle de ordens de serviço, onde os usuários podem cadastrar as ordens, alterar dados, cadastrar clientes e equipamentos, ver status, visualizar relatórios e mais algumas funcionalidades. Os usuários contam também com um chatbot que pode auxilia-los na utilização do sistema.
+Este projeto foi feito por um grupo de integrantes da Fatec Campinas, onde foi desenvolvido um site estático para a apresentação e venda do software de controle de ordens de serviço desenvolvido no curso. 
 <br>
 
 ## 🚀 Instalando e usando o projeto Valor Consultoria
